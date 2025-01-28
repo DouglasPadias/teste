@@ -1,6 +1,7 @@
-# Quando voce nao quer que determinados arquivos 
-# nao sejam enviados para o GitHub voce criar um arquivo .gitignore
-# e coloca o nomes dos arquivos ou pastas que voce nao quer enviar.
+# Para ignorar arquivos, para que não sejam enviados para o GitHub, como uma
+# chave de segurança, senhas, pastas secretas etc. Devemos criar um arquivo
+# .gitignore e colocar os nomes dos arquivos ou pastas que não quermos enviar
+# dentro desse arquivo .gitignore.
 
 /node_modules
 .env.local
